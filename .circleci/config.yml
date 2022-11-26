@@ -153,19 +153,6 @@ workflows:
   version: 2
   test-suite:
     jobs:
-      - docker-image:
-          requires:
-            - setup-dependencies
-      - docker-tagged:
-          filters:
-            tags:
-              only:
-                - /^v.*/
-            branches:
-              ignore:
-                - /.*/
-          requires:
-            - setup-dependencies
       - setup-dependencies:
           # filters here are needed to enable this job also for tags
           filters:
