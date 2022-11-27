@@ -105,11 +105,6 @@ jobs:
           keys:
             - go-mod-v1-{{ checksum "go.sum" }}
       - run:
-          name: Benchmarks for gas calculations
-          command: |
-            cd ./x/wasm/keeper
-            go test -bench .
-      - run:
           name: Benchmarks to compare with native modules
           command: |
             cd ./benchmarks
