@@ -14,8 +14,8 @@ granod start
 ```
 
 ## Referrences
-- https://github.com/eg-easy/grano-did
-- https://github.com/eg-easy/grano-did-client
-- https://github.com/EG-easy/grano-did-contract
-- https://github.com/EG-easy/grano-did-exporter
-- https://github.com/EG-easy/grano-did-resolver
+- https://github.com/intellltech/grano-did
+- https://github.com/intellltech/grano-did-client
+- https://github.com/intellltech/grano-did-contract
+- https://github.com/intellltech/grano-did-exporter
+- https://github.com/intellltech/grano-did-resolver
